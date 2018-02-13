@@ -1,5 +1,5 @@
-import Piece from '../model/piece.js';
-import Point from '../model/point.js';
+import Piece from './piece.js';
+import Point from './point.js';
 import directions from '../model/directions.js'
 
 it('should add a point to the piece > UP direction', () => {
