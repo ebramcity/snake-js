@@ -1,7 +1,7 @@
-import Snake from '../model/snake.js';
-import Point from '../model/point.js';
-import Piece from '../model/piece.js';
-import directions from '../model/directions.js'
+import Snake from './snake.js';
+import Point from './point.js';
+import Piece from './piece.js';
+import directions from './directions.js'
 
 const initialPoint = new Point(10, 10)
 const snake = new Snake(initialPoint, "red", directions.RIGHT, 10);
