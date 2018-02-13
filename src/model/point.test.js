@@ -1,5 +1,5 @@
-import Point from '../model/point';
-import directions from '../model/directions'
+import Point from './point';
+import directions from './directions'
 
 const p1 = new Point(10, 10);
 
